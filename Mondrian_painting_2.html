@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Grid Painting</title>
+    <style>
+       
+       body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+       }
+
+       .container {
+            display: grid;
+            background-color: black;
+            gap: 5px;
+            width: 420px;
+            height: 410px;
+            grid-template-columns: 50px 50px 50px 100px 60px 60px 20px;
+            grid-template-rows: 50px 100px 100px 50px 45px 40px 15px;
+            border: 30px solid rgb(221, 167, 32);
+            padding: 5px;
+        }
+        .g1 {
+            background-color: #c7c4bd;
+            grid-column: span 2;
+        }
+        .w1 {
+            background-color: #f9f5e2;
+            grid-column: span 2;
+        }
+        .y1 {
+            background-color: #f6d469;
+            grid-column: span 2;
+        }
+        .w2 {
+            background-color: #f9f5e2;
+            grid-row: span 4;
+        }
+        .w3 {
+            background-color: #f9f5e2;
+        }
+        .r1 {
+            background-color: #d32617;
+            grid-column: span 3;
+            grid-row: span 2;
+        }
+        .y2 {
+            background-color: #f6d469;
+            grid-column: span 2;
+        }
+        .g2 {
+            background-color: #c7c4bd;
+            grid-row: span 2;
+        }
+        .w4 {
+            background-color: #f9f5e2;
+        }
+        .w5 {
+            background-color: #f9f5e2;
+        }
+        .b1 {
+            background-color: black;
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .g3 {
+            background-color: #c7c4bd;
+        }
+        .w6 {
+            background-color: #f9f5e2;
+            grid-column: span 2;
+        }
+        .y3 {
+            background-color: #f6d469;
+            grid-row: span 2;
+        }
+        .g4 {
+            background-color: #c7c4bd;
+        }
+        .bl1 {
+            background-color: #1e159b;
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .r2 {
+            background-color: #d32617;
+            grid-row: span 2;
+        }
+        .w7 {
+            background-color: #f9f5e2;
+            grid-column: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    
+        <div class="g1"> </div>
+    
+        <div class="w1"> </div>
+    
+        <div class="y1"> </div>
+    
+        <div class="w2"> </div>
+    
+        <div class="w3"> </div>
+    
+        <div class="r1"> </div>
+    
+        <div class="y2"> </div>
+    
+        <div class="g2"> </div>
+    
+        <div class="w4"> </div>
+    
+        <div class="w5"> </div>
+    
+        <div class="b1"> </div>
+    
+        <div class="g3"> </div>
+    
+        <div class="w6"> </div>
+    
+        <div class="y3"> </div>
+
+        <div class="g4"> </div>
+
+        <div class="bl1"> </div>
+
+        <div class="r2"> </div>
+
+        <div class="w7"> </div>
+
+        <div> </div>
+    </div>
+</body>
+</html>
